@@ -36,3 +36,16 @@ JWTDecoder, JWTEncoder
 3. Copy Token - Back to 1. - Authorization Type: Bearer Token - Paste Token from 2. - Send
 
 #Test Method 2 - Httpie - Skipped
+
+Version 3
+Spring Security Unit Test
+pom.xml
+    <dependency>
+        <groupId>org.springframework.security</groupId>
+        <artifactId>spring-security-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+Select Class HomeController - Right Click Menu - Generate... - Test... - OK
+Add Test Methods
+Run Test (Before "class HomeControllerTest {", there is an icon)
+
