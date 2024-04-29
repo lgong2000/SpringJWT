@@ -49,3 +49,14 @@ Select Class HomeController - Right Click Menu - Generate... - Test... - OK
 Add Test Methods
 Run Test (Before "class HomeControllerTest {", there is an icon)
 
+Version 4
+1. POST - http://localhost:8080/token - Authorization Type: No Auth - Body:
+   {
+       "username": "test0001",
+       "password": "password"
+   }
+    - Send
+2. Copy token - Back to 1. - Authorization Type: Bearer Token - Paste Token from 1. - Send
+    
+
+
