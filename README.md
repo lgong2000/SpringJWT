@@ -4,11 +4,11 @@ Spring Web
 Spring OAuth2 Resource Server
 Spring Configuration Processor
 
-Version 1
+## Version 1
 InMemoryUserDetailsManager
 httpBasic
 
-Version 2
+## Version 2
 OAuth2 - JWT 
 
 #Generate Private/Public Keys
@@ -37,7 +37,7 @@ JWTDecoder, JWTEncoder
 
 #Test Method 2 - Httpie - Skipped
 
-Version 3
+## Version 3
 Spring Security Unit Test
 pom.xml
     <dependency>
@@ -58,5 +58,9 @@ Version 4
     - Send
 2. Copy token - Back to 1. - Authorization Type: Bearer Token - Paste Token from 1. - Send
     
+## Version 4
+Setup CORS
+Work with VueClenet - VSCode project
+http://localhost:5173/
 
 
